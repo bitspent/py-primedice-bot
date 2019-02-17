@@ -38,7 +38,7 @@ def roll(amount, condition, target,coin):
 bal = balance('btc')
 
 # do a dice roll: 100 Satoshi
-succ, res, pay = roll(100, 'above', 70)
+succ, res, pay = roll(100, 'above', 70, 'btc')
 
 # show operation success, roll result, payout
 # payout is 0 on lost
